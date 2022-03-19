@@ -1,0 +1,26 @@
+{
+  "name": "extended-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaintAllary/Extended-Typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "functions"
+  ],
+  "author": "SaintAllary/Nefertisu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaintAllary/Extended-Typescript/issues"
+  },
+  "homepage": "https://github.com/SaintAllary/Extended-Typescript#readme",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}

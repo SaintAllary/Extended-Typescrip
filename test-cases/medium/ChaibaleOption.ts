@@ -7,7 +7,7 @@ import { IResult } from "../../test-data/test-types";
   .option('bar', { value: 'Hello World' })
   .get()
 
-  const result2: IResult = config
+  const result2: IResult = config //expected to be error
   .option('foo', 123)
   .option('name', 'type-challenges')
   .get()

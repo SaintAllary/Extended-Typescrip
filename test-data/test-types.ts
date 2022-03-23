@@ -1,3 +1,5 @@
+import { manyDimensionArray, readonlyString } from "./test-variables"
+
 export type TestNestedType = {
     very:{
         very:{
@@ -28,6 +30,12 @@ export interface IDog {
   breeds: 'Hound' | 'Brittany' | 'Bulldog' | 'Boxer'
   color: 'brown' | 'white' | 'black'
 }
+
+export type Fn = (a: number, b: string) => number
+
+export type ReadonlyStringType = typeof readonlyString
+
+export type ManyDimensionArray = Readonly<typeof manyDimensionArray>;
 
 
 

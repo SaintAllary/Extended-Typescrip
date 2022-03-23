@@ -1,4 +1,4 @@
-import { WhiteSpaceNT } from "../common";
+import { WhiteSpaceNT } from "../common-types";
 import { TrimLeft } from "./TrimLeft";
 
 export type TrimRight<T extends  string> = T extends `${infer P}${WhiteSpaceNT}`? TrimRight<P>: T;

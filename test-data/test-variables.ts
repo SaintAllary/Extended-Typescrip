@@ -21,3 +21,9 @@ export const promise2 = new Promise<string>((resolve, reject) => {
 });
 
 export const neededToTrimInTwoDirection = '  check   '
+
+export const readonlyArrayOfString = ['yes','','i','do','not','wow'] as const ; 
+
+export const readonlyString = 'some string' as const ; 
+
+export const manyDimensionArray = [[3, 4],1, {}, [[[[['asda']]]]]] as const;
